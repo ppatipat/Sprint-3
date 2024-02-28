@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20240229 01:44:40.969" rpa="false" schemaversion="4">
+<suite id="s1" name="TC16 04" source="D:\Tasks\Software Engineer\Project-SN\TestRB\TC16_04.robot">
+<test id="s1-t1" name="Go To homepage" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240229 01:44:41.135" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20240229 01:44:41.135" endtime="20240229 01:44:42.826"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath: //img[@alt="id"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240229 01:44:42.828" level="INFO">Clicking element 'xpath: //img[@alt="id"]'.</msg>
+<status status="PASS" starttime="20240229 01:44:42.827" endtime="20240229 01:44:43.028"/>
+</kw>
+<status status="PASS" starttime="20240229 01:44:41.134" endtime="20240229 01:44:43.029"/>
+</test>
+<status status="PASS" starttime="20240229 01:44:40.969" endtime="20240229 01:44:43.031"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC16 04">TC16 04</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
