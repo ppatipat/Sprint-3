@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20240229 01:44:40.969" rpa="false" schemaversion="4">
-<suite id="s1" name="TC16 04" source="D:\Tasks\Software Engineer\Project-SN\TestRB\TC16_04.robot">
-<test id="s1-t1" name="Go To homepage" line="7">
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20240229 03:41:45.944" rpa="false" schemaversion="4">
+<suite id="s1" name="TC16 16" source="D:\Tasks\Software Engineer\Project-SN\TestRB\TC16_16.robot">
+<test id="s1-t1" name="Go To Contact us page at Indonesia" line="7">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${HOMEPAGE}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20240229 01:44:41.135" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20240229 01:44:41.135" endtime="20240229 01:44:42.826"/>
+<msg timestamp="20240229 03:41:46.104" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/id/hubungi-kami'.</msg>
+<status status="PASS" starttime="20240229 03:41:46.104" endtime="20240229 03:41:47.744"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath: //img[@alt="id"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240229 01:44:42.828" level="INFO">Clicking element 'xpath: //img[@alt="id"]'.</msg>
-<status status="PASS" starttime="20240229 01:44:42.827" endtime="20240229 01:44:43.028"/>
+<msg timestamp="20240229 03:41:47.745" level="INFO">Clicking element 'xpath: //img[@alt="id"]'.</msg>
+<status status="PASS" starttime="20240229 03:41:47.744" endtime="20240229 03:41:47.949"/>
 </kw>
-<status status="PASS" starttime="20240229 01:44:41.134" endtime="20240229 01:44:43.029"/>
+<status status="PASS" starttime="20240229 03:41:46.103" endtime="20240229 03:41:47.950"/>
 </test>
-<status status="PASS" starttime="20240229 01:44:40.969" endtime="20240229 01:44:43.031"/>
+<status status="PASS" starttime="20240229 03:41:45.945" endtime="20240229 03:41:47.950"/>
 </suite>
 <statistics>
 <total>
@@ -26,7 +26,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="TC16 04">TC16 04</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC16 16">TC16 16</stat>
 </suite>
 </statistics>
 <errors>

@@ -1,14 +1,9 @@
 *** Settings ***
 Library     SeleniumLibrary
 *** Variables ***
-${HOMEPAGE}     http://localhost:8080/
+${HOMEPAGE}     http://localhost:8080/gb/cart?action=show
 ${BROWSER}  chrome
 *** Test Cases ***
-Go To homepage and change language to Thai
+Go To Detail Cart Page Eng
     Open Browser     ${HOMEPAGE}     ${BROWSER}
-    Click Element   xpath: //img[@alt="th"]
     
-    
-    
-
-

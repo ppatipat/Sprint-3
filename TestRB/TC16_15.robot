@@ -1,14 +1,10 @@
 *** Settings ***
 Library     SeleniumLibrary
 *** Variables ***
-${HOMEPAGE}     http://localhost:8080/
+${HOMEPAGE}     http://localhost:8080/gb/contact-us
 ${BROWSER}  chrome
 *** Test Cases ***
-Go To homepage and change language to Thai
+Go To Contact us page at Eng
     Open Browser     ${HOMEPAGE}     ${BROWSER}
-    Click Element   xpath: //img[@alt="th"]
-    
-    
-    
-
+    Click Element   xpath: //img[@alt="gb"]
 
